@@ -1,0 +1,115 @@
+body{
+    background-color: #d4b7cf;
+  }
+  
+  footer {
+      background-color: #d4b7cf;
+      color: #aa129b;
+      padding: 20px;
+      text-align: center;
+      margin-top: 70px;
+  }
+  
+  html,
+  :root {
+    height: 100%;
+  }
+  input {
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  #formulario {
+    width: 500px;
+    min-height: 400px;
+    background: #ebebeb;
+    border-radius: 6px;
+    padding: 20px 30px;
+  }
+  #formulario legend {
+    color: #9852da;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 22px;
+  }
+  .input-group {
+    margin: 10px 0;
+  }
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #9b3d9b;
+    cursor: pointer;
+  }
+  
+  .input-group input:not([type="checkbox"]) {
+    background: #dedddd;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 8px 10px;
+    display: block;
+    width: 100%;
+  }
+  .input-group input:focus {
+    border-color: #fa91da;
+  }
+  
+  .input-group input::placeholder {
+    color: #c684da;
+    font-weight: 300;
+  }
+  .colunas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .colunas .input-group {
+    width: 48%;
+  }
+  .footer {
+    text-align: center;
+  }
+  .botao {
+    background: #e6bdd6;
+    border-radius: 2px;
+    padding: 10px 15px;
+    border: none;
+    color: #b842a4;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .botao:hover {
+    background: #fa82fa;
+  }
+  .logo img {
+    max-width: 70px; 
+    height: auto 0px; 
+    display: block 20px; 
+    margin: auto 10px; 
+  }
+  .logo img{
+   margin-left: 70px;
+  }
+  
+  .logo img {
+    max-width: 70px;
+    height: auto 0px; 
+    display: block 20px; 
+    margin: auto 10px; 
+  }
+  .logo img{
+   margin-left: 70px;
+  }
+  
+  .h2{
+    align-items: center;
+    color: #09665a;
+  }
